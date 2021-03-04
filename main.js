@@ -4,7 +4,7 @@ window.onload = function () {
   var Tens = document.getElementById("tens");
   var Sec = document.getElementById("seconds");
   var start = document.getElementById("button-start");
-  var stop = document.getElementsByTagName("button-stop");
+  var stop = document.getElementById("button-stop");
   var reset = document.getElementById("button-reset");
   var interval;
   start.onclick = function () {
